@@ -2,4 +2,64 @@
 
 /* 回答はここに書いてね */
 
+/* Q6-1の回答 */
+.top-content-left {
+  text-align: center;
+}
+.text-align {
+  display: inline-block;
+  background-color: #e6f2ff;
+  padding: 10px;
+}
+.margin {
+  width: 90px;
+  background-color: #e6f2ff;
+  padding: 10px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Q6-2の回答 */
+.table-wrapper {
+  display: table;
+}
+.table-box {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.table {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+}
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex {
+  background-color: #fff;
+  padding: 10px;
+}
+.stable-position-box {
+  position: relative;
+}
+.stable-position {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.flexible-position-box {
+  position: relative;
+}
+.flexible-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* 回答はここに書いてね */
