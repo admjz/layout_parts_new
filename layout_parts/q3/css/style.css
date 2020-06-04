@@ -8,11 +8,11 @@
 
 .meal-table tr {
   text-align: center;
-  background-color: #ecf1f2;
+  background-color: #fff;
 }
 
 .meal-table tr:nth-child(even){
-  background-color: #fff;
+  background-color: #ecf1f2;
 }
 
 .meal-table tr:last-child {
