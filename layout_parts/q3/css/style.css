@@ -3,17 +3,22 @@
 /* 回答はここに書いてね */
 .meal-table {
   width: 100%;
+  table-layout: fixed;
 }
+
 .meal-table tr {
   text-align: center;
   background-color: #ecf1f2;
 }
+
 .meal-table tr:nth-child(even){
   background-color: #fff;
 }
+
 .meal-table tr:last-child {
   border-top: 2px dashed #000;
 }
+
 .meal-table tr th {
   font-size: 18px;
   color: #fff;
@@ -22,10 +27,12 @@
   border: 1px solid #dedede;
   padding: 10px;
 }
+
 .meal-table tr td {
   font-size: 16px;
   line-height: 22px;
   border: 1px solid #dedede;
   padding: 10px;
 }
+
 /* 回答はここに書いてね */
