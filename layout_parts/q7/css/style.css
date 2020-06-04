@@ -5,18 +5,21 @@
 * {
   font-size: 16px;
 }
+
 /* floatで横並び */
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
+
 .float-box-text {
   width: 225px;
   float: left;
   margin-left: 50px;
   box-sizing: border-box;
 }
+
 .float-box-text:first-child {
   margin-left: 0;
 }
@@ -25,15 +28,18 @@
 .table-box-wrapper {
   display: table;
 }
+
 .table-box {
   display: table-cell;
   width: 225px;
   box-sizing: border-box;
   vertical-align: middle;
 }
+
 .table-box:first-child {
   padding-right: 25px;
 }
+
 .table-box:last-child {
   padding-left: 25px;
 }
@@ -42,6 +48,7 @@
 .inline-box {
   letter-spacing: -5px;
 }
+
 .inline-box-text {
   width: 225px;
   box-sizing: border-box;
@@ -49,6 +56,7 @@
   vertical-align: middle;
   letter-spacing: normal;
 }
+
 .inline-box-text:last-child {
   margin-left: 50px;
 }
@@ -59,6 +67,7 @@
   align-items: flex-end;
   justify-content: space-around;
 }
+
 .flex-box-text {
   width: 225px;
   box-sizing: border-box;
@@ -68,18 +77,22 @@
 .box-wrapper {
   letter-spacing: -5px;
 }
+
 .margin-box {
   box-sizing: border-box;
   display: inline-block;
   vertical-align: top;
   letter-spacing: normal;
 }
+
 .fixed-box {
   width: 300px;
 }
+
 .variable-box {
   width: 100%;
   padding-left: 350px;
   margin-left: -300px;
 }
+
 /* 回答はここに書いてね */
