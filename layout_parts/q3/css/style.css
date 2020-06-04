@@ -19,20 +19,22 @@
   border-top: 2px dashed #000;
 }
 
+.meal-table tr th,
+.meal-table tr td {
+  padding: 10px;
+  border: 1px solid #dedede;
+}
+
 .meal-table tr th {
   font-size: 18px;
   color: #fff;
   line-height: 26px;
   background-color: #2244aa;
-  border: 1px solid #dedede;
-  padding: 10px;
 }
 
 .meal-table tr td {
   font-size: 16px;
   line-height: 22px;
-  border: 1px solid #dedede;
-  padding: 10px;
 }
 
 /* 回答はここに書いてね */
