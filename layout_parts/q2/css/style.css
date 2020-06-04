@@ -23,5 +23,6 @@
 .content-text {
   font-size: 18px;
   line-height: 22px;
+  word-break: break-all;
 }
 /* 回答はここに書いてね */
