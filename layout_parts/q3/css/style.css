@@ -15,7 +15,7 @@
   background-color: #ecf1f2;
 }
 
-.meal-table tr:last-child {
+.meal-table tbody tr:last-child {
   border-top: 2px dashed #000;
 }
 
