@@ -8,16 +8,16 @@
 
 /* floatで横並び */
 .clearfix::after {
+  clear: both;
   content: "";
   display: block;
-  clear: both;
 }
 
 .float-box-text {
-  width: 225px;
+  box-sizing: border-box;
   float: left;
   margin-left: 50px;
-  box-sizing: border-box;
+  width: 225px;
 }
 
 .float-box-text:first-child {
@@ -30,10 +30,10 @@
 }
 
 .table-box {
-  display: table-cell;
-  width: 225px;
   box-sizing: border-box;
+  display: table-cell;
   vertical-align: middle;
+  width: 225px;
 }
 
 .table-box:first-child {
@@ -50,11 +50,11 @@
 }
 
 .inline-box-text {
-  width: 225px;
   box-sizing: border-box;
   display: inline-block;
-  vertical-align: middle;
   letter-spacing: normal;
+  vertical-align: middle;
+  width: 225px;
 }
 
 .inline-box-text:last-child {
@@ -63,14 +63,14 @@
 
 /* flexで横並び */
 .flex-box {
-  display: flex;
   align-items: flex-end;
+  display: flex;
   justify-content: space-around;
 }
 
 .flex-box-text {
-  width: 225px;
   box-sizing: border-box;
+  width: 225px;
 }
 
 /* inline-blockとmarginでの横並び */
@@ -81,8 +81,8 @@
 .margin-box {
   box-sizing: border-box;
   display: inline-block;
-  vertical-align: top;
   letter-spacing: normal;
+  vertical-align: top;
 }
 
 .fixed-box {
@@ -90,9 +90,9 @@
 }
 
 .variable-box {
-  width: 100%;
-  padding-left: 350px;
   margin-left: -300px;
+  padding-left: 350px;
+  width: 100%;
 }
 
 /* 回答はここに書いてね */

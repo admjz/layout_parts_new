@@ -2,38 +2,38 @@
 
 /* 回答はここに書いてね */
 .message-box {
-  width: 500px;
-  margin: 0 auto;
-  padding: 20px;
   border: 5px solid #222;
+  border-radius: 30px;
   font-size: 16px;
   line-height: 16px;
-  border-radius: 30px;
+  margin: 0 auto;
+  padding: 20px;
   position: relative;
+  width: 500px;
 }
 
 .message-box::before {
-  content: "";
-  width: 0;
-  height: 0;
-  position: absolute;
-  bottom: -25px;
-  left: 30px;
   border-left: 20px solid transparent;
-  border-top: 20px solid #222;
   border-right: 20px solid transparent;
+  border-top: 20px solid #222;
+  bottom: -25px;
+  content: "";
+  height: 0;
+  left: 30px;
+  position: absolute;
+  width: 0;
 }
 
 .message-box::after {
-  content: "";
-  width: 0;
-  height: 0;
-  position: absolute;
-  bottom: -18px;
-  left: 30px;
   border-left: 20px solid transparent;
-  border-top: 20px solid #fff;
   border-right: 20px solid transparent;
+  border-top: 20px solid #fff;
+  bottom: -18px;
+  content: "";
+  height: 0;
+  left: 30px;
+  position: absolute;
+  width: 0;
 }
 
 /* 回答はここに書いてね */
