@@ -17,10 +17,8 @@
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   content: "";
-  height: 0;
   left: 30px;
   position: absolute;
-  width: 0;
 }
 
 .message-box::before {
