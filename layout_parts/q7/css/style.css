@@ -45,6 +45,10 @@
 }
 
 /* inline-blockで横並び */
+.inline-box {
+  font-size: 0;
+}
+
 .inline-box-text {
   box-sizing: border-box;
   display: inline-block;
@@ -53,7 +57,7 @@
 }
 
 .inline-box-text:last-child {
-  margin-left: 45px;
+  margin-left: 50px;
 }
 
 /* flexで横並び */
@@ -69,6 +73,10 @@
 }
 
 /* inline-blockとmarginでの横並び */
+.box-wrapper {
+  font-size: 0;
+}
+
 .margin-box {
   box-sizing: border-box;
   display: inline-block;
@@ -80,7 +88,7 @@
 }
 
 .variable-box {
-  margin-left: -310px;
+  margin-left: -300px;
   padding-left: 350px;
   width: 100%;
 }
