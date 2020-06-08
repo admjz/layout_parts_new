@@ -11,29 +11,24 @@
   position: relative;
   width: 500px;
 }
-
-.message-box::before {
+.message-box::before,
+.message-box::after {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid #222;
-  bottom: -25px;
   content: "";
   height: 0;
   left: 30px;
   position: absolute;
   width: 0;
 }
+.message-box::before {
+  border-top: 20px solid #222;
+  bottom: -25px;
+}
 
 .message-box::after {
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
   border-top: 20px solid #fff;
   bottom: -18px;
-  content: "";
-  height: 0;
-  left: 30px;
-  position: absolute;
-  width: 0;
 }
 
 /* 回答はここに書いてね */
